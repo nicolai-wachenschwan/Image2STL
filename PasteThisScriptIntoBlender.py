@@ -1,5 +1,6 @@
 ### DESCRIPTION  ###
 #Convert an Image to an into an STL with local height analog to its colors/grayscale. Useful for Stamp making or PCB printing on Resin Printer.
+#when happy with the result use the solidify modifier to make the part 3d printable.
 
 #It is simple but relatively slow. (Runtime Linear to Pixelcount, 1 Face in STL per Pixel!)
 #WARNING:Large images will take a long time to compute, blender will be "unresponsive" during the calculation.
